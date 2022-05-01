@@ -1,0 +1,176 @@
+
+/* *************************************
+EJERCICIO 1
+*************************************  */
+
+.img-1{
+    width: 30%;
+}
+
+.container {
+    width: 630px;
+    height: 450px;
+    border: 1px solid;
+    padding: 10px;
+    margin: 100px auto; 
+    border: solid;
+    position: absolute;
+}       
+
+.box {
+    width: 150px;
+    height: 150px;
+    display: inline-block;  
+    text-align: center;
+    line-height: 150px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+  
+}
+
+.one {
+    background-color: darkgoldenrod;
+    position: absolute;
+    z-index: 1;
+}
+
+.two {
+    background-color: darkcyan;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 100px;
+    z-index: 0;
+
+}
+
+.three {
+    background-color: darkolivegreen;
+    position: absolute;
+    z-index: 1;
+    margin-top: 200px;
+    margin-left: 200px;
+
+}
+
+.four {
+    background-color: darkred;
+    position: absolute;
+    z-index: 0;
+    margin-top: 300px;
+    margin-left: 300px;
+}
+
+    /* *************************************
+            EJERCICIO 2
+    *************************************  */
+
+.ejercicio-2, h1 p .img-2{
+    margin-top: 40em;
+}
+.img-2{
+    width: 30%;
+}
+.padre-container{
+width: 323px;
+position: relative;
+}
+.cajas-color{
+    display: inline-block;  
+    text-align: center;
+    line-height: 150px;
+  
+}
+.caja-gris{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(192, 186, 186);
+    margin-left: 0px;
+  margin-right: 5px;
+
+}
+.caja-roja{
+    width: 60px;
+    height: 60px;
+    background-color: red;
+    position: absolute;
+}
+.caja-verde{
+    width: 30px;
+    height: 30px;
+    background-color: green;
+    position: absolute;
+}
+
+.roja-1 {
+    left: 0px;
+    top:0px;
+}
+.verde-1 {
+    top:70px;
+    left:70px;
+}
+.roja-2 {
+    top:40px;
+    left:109px;
+}
+.verde-2{
+    top:0px;
+    left:179px;
+}
+.roja-3{
+    right: 5px;
+    top:40px;
+}
+.verde-3{
+    right: 5px;
+    top:0px;
+}
+.roja-4{
+    left: 0px;
+    top:144px
+}
+.verde-4{
+    left: 30px;
+    top:174px
+}
+.roja-5{
+    top: 104px;
+    right: 114px;
+}
+.verde-5 {
+    top: 134px;
+    right: 144px;
+}
+.roja-6{
+    top: 144px;
+    right: 5px;
+}
+.verde-6{
+    top: 144px;
+    right: 5px;
+}
+.roja-7{
+    bottom: 44px;
+    left: 17px;
+}
+.verde-7{
+    bottom: 4px;
+    left: 0px;
+}
+.roja-8{
+    bottom: 4px;
+    left: 128px;
+}
+.verde-8{
+    bottom: 4px;
+    left: 144px;
+}
+.roja-9{
+    right: 25px;
+    bottom: 25px;
+}
+.verde-9{
+    right: 40px;
+    bottom: 40px;
+}
